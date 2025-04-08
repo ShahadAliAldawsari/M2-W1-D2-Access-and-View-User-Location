@@ -63,6 +63,7 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier.fillMaxSize(),
                         contentAlignment = Alignment.Center
                     ) {
+//                        MapScreen() //it causes a crash!!
                         ScreenContent()
 //                        BottomCard()
 //                        GetCurrentLocation() //Check above code for this
